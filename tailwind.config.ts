@@ -57,6 +57,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "color-preview": {
+          DEFAULT: "hsl(var(--color-preview-bg))",
+          border: "hsl(var(--color-preview-border))",
+        },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-background": "var(--gradient-background)",
+      },
+      boxShadow: {
+        soft: "var(--shadow-soft)",
+        medium: "var(--shadow-medium)",
+        color: "var(--shadow-color)",
       },
       borderRadius: {
         lg: "var(--radius)",
